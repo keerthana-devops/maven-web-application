@@ -10,7 +10,7 @@ node
  stage('Build'){
  sh "${mavenHome}/bin/mvn clean package"
  }
- 
+ /*
  stage('SendNotification'){
 emailext body: '''Build over...
 
@@ -18,5 +18,5 @@ emailext body: '''Build over...
 Regards,
 Kirtz''', subject: 'Build over...', to: 'keerthana574@gmail.com'
 }
-	
+*/	
 }
