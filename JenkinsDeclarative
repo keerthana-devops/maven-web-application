@@ -13,7 +13,7 @@ pipeline{
 		    git branch: 'development', credentialsId: 'ed41196f-23a1-46b8-b79a-d1d96364dc4f', url: 'https://github.com/keerthana-devops/maven-web-application.git'
 		    			}
 				}
-				
+/*	
 			stage('Build'){
 				steps{
 					sh "mvn clean package"
@@ -29,6 +29,8 @@ pipeline{
                             
                             Regards,
                             Kirtz''', subject: 'Build Over...', to: 'keerthana574@gmail.com' 
-                             }
-                }
+			    }
+   */             
+		
+		}
 		}
