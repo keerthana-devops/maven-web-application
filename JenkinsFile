@@ -45,4 +45,7 @@ Regards,
 Kirtz''', subject: 'Build over...', to: 'keerthana574@gmail.com'
 }
 */	
+
+notifyBuild(currentBuild.result)
+
 }
