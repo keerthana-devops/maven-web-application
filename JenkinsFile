@@ -25,7 +25,7 @@ node
 
   // Send notifications
   slackSend (color: colorCode, message: summary)
-
+}
     
  def  mavenHome = tool name: "Maven3.8.4"
  stage('CheckoutCode')
